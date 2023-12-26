@@ -3,7 +3,7 @@ from django.shortcuts import render
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from clients.models import Client
-from services.models import Subscription
+from services.models import Subscription, Service
 from services.serializers import SubscriptionSerializer
 
 
